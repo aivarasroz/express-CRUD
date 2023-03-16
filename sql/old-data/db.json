@@ -1,0 +1,207 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Books",
+      "desccription": "Selling good old books",
+      "quantity": 300,
+      "images": [
+        "https://a0.muscache.com/im/pictures/3a5a705d-a899-4ae3-8997-de37198b014b.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/de629684d3-5901-46b6-8e51-ba39a0582122.jpg?im_w=140",
+        "https://a0.muscache.com/im/pictures/892086516519b-d2e0-4157-91e1-ba5081705d3f.jpg?im_w=15840"
+      ],
+      "price": "32€",
+      "rating": 3,
+      "seller": {
+        "name": "Gary",
+        "email": "gary.jomes@wellplay.gg"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Electronics",
+      "description": "New and used electronics",
+      "quantity": 200,
+      "images": [
+      "https://www.lg.com/us/images/tvs/md07501335/gallery/LG-OLED65C9PUA-Class-4K-Smart-OLED-TV-w-AI-ThinQ-64.5-Diag-Gallery01.jpg",
+      "https://www.pcrichard.com/images/product/large/Z55OLEDQPUA.jpg",
+      "https://www.sony.com/image/930f4c4c4b0e8ec7d04962d6c8947ae3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+      ],
+      "price": "$500",
+      "rating": 4.5,
+      "seller": {
+      "name": "John Smith",
+      "email": "john.smith@electronics.com"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Clothing",
+      "description": "Trendy clothing for men and women",
+      "quantity": 1000,
+      "images": [
+      "https://cdn.shopify.com/s/files/1/0231/7216/products/7205658_79733614.jpg?v=1606450121",
+      "https://cdn.shopify.com/s/files/1/1230/9490/products/FreetoGrow-Raglan.jpg?v=1634786461",
+      "https://cdn.shopify.com/s/files/1/0231/7216/products/6732629_35723952.jpg?v=1579532881"
+      ],
+      "price": "$50",
+      "rating": 4,
+      "seller": {
+      "name": "Fashionista",
+      "email": "fashionista@clothing.com"
+      }
+      },
+      {
+        "id": "4",
+        "name": "Furniture",
+        "description": "Home and office furniture",
+        "quantity": 500,
+        "images": [
+        "https://www.ikea.com/us/en/images/products/friheten-sleeper-sectional-3-seat-w-storage-skiftebo-dark-gray__0719585_pe731844_s5.jpg",
+        "https://www.ikea.com/us/en/images/products/brimnes-bed-frame-with-storage-white__0638600_pe698703_s5.jpg",
+        "https://www.ikea.com/us/en/images/products/skarsta-desk-sit-stand-white__0737424_pe741497_s5.jpg"
+        ],
+        "price": "$300",
+        "rating": 4.2,
+        "seller": {
+        "name": "Furniture House",
+        "email": "furniturehouse@furniture.com"
+        }
+        },
+        {
+          "id": "5",
+          "name": "Laptops",
+          "description": "High-performance laptops for work and gaming",
+          "quantity": 20,
+          "images": [
+            "https://www.lenovo.com/medias/lenovo-laptop-legion-5i-15-thumbnail.jpg?context=bWFzdGVyfHJvb3R8MTk3MDd8aW1hZ2UvanBlZ3xoMDYvaGJjLzEwOTk1NTkyNDIzMTMuanBnfGQzN2Q2ZDIwZTZhYTYzOWYzOWE0NzI1NTcwNzc5MTBjZjI3ZjJlNzM1YzJjYTk2M2Q2NzI2NTM2OWM0ZjYyMzk",
+            "https://www.dell.com/learn/us/en/uscorp1/campaigns/xps-laptop-campaigns/assets/hero-laptop-xps-15-7590-lab.jpg",
+            "https://cdn.mos.cms.futurecdn.net/ivPa9CvQ7fPzDxuZ8AiBZ3.jpg"
+          ],
+          "price": "1200€",
+          "rating": 4.5,
+          "seller": {
+            "name": "John",
+            "email": "john.doe@techcorp.com"
+          }
+        },
+        {
+          "id": "6",
+          "name": "Smartphones",
+          "description": "Latest smartphones from top brands",
+          "quantity": 50,
+          "images": [
+            "https://www.samsung.com/us/mobile/galaxy-s21-5g/buy/galaxy-s21-5g-sm-g991uzvaxaa/gallery/US_Gallery_MysticViolet_Front_Back_Slide1_Image_020821.jpg?$bu-forms-detector-jpg$",
+            "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone13pro_09142021_inline.jpg.large.jpg",
+            "https://cdn57.androidauthority.net/wp-content/uploads/2021/06/OnePlus-Nord-CE-5G-image-1.jpg"
+          ],
+          "price": "800€",
+          "rating": 4,
+          "seller": {
+            "name": "Jane",
+            "email": "jane.doe@phonetech.com"
+          }
+        },
+        {
+          "id": "7",
+          "name": "Indoor Plant",
+          "description": "A beautiful and easy-to-care-for indoor plant",
+          "quantity": 100,
+          "images": [
+            "https://images.unsplash.com/photo-1523311066372-3a31d211f2e9",
+            "https://images.unsplash.com/photo-1502716119720-b7a8c5eafd64",
+            "https://images.unsplash.com/photo-1583416693039-f3cd3f38d2f7"
+          ],
+          "price": "30€",
+          "rating": 4.8,
+          "seller": {
+            "name": "Sarah Johnson",
+            "email": "sarahjohnson@example.com"
+          }
+        },
+        {
+          "id": "8",
+          "name": "Camping Tent",
+          "description": "A durable and waterproof camping tent for 4 people",
+          "quantity": 10,
+          "images": [
+            "https://images.unsplash.com/photo-1571907223139-53e0a451ab56",
+            "https://images.unsplash.com/photo-1601371829491-88b57008000c",
+            "https://images.unsplash.com/photo-1600563242592-f0672f4af4d4"
+          ],
+          "price": "120€",
+          "rating": 4.2,
+          "seller": {
+            "name": "Mike Williams",
+            "email": "mikewilliams@example.com"
+          }
+        },
+        {
+          "id": "9",
+          "name": "Organic Skincare Products",
+          "description": "100% natural and organic skincare products",
+          "quantity": 50,
+          "images": [
+            "https://images.unsplash.com/photo-1578083623259-583bbfc1daba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmVhdXRpZnVsJTIwc2tpcmNoJTIwcHJvZHVjdHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+            "https://i.pinimg.com/736x/27/d4/13/27d4136f938c6dce28d01f32816c1f9e.jpg",
+            "https://i.pinimg.com/originals/12/25/e3/1225e37f1c0bb80fb9e0e2f78d51cb52.jpg"
+          ],
+          "price": "60€",
+          "rating": 5,
+          "seller": {
+            "name": "EcoBeauty",
+            "email": "ecobeauty@gmail.com"
+          }
+        },
+        {
+          "id": "10",
+          "name": "Mountain Bikes",
+          "description": "High-end mountain bikes with top-of-the-line components",
+          "quantity": 20,
+          "images": [
+            "https://images.unsplash.com/photo-1579467570419-b32234a804ce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjBiaWtlcyUyMGJsaXR0bGVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+            "https://i.pinimg.com/736x/45/11/30/45113038efcaab81f142fb1509b41be2.jpg",
+            "https://i.pinimg.com/originals/68/bd/17/68bd17ab28369ec9c413e50b5b7d43c5.jpg"
+          ],
+          "price": "400€",
+          "rating": 4,
+          "seller": {
+            "name": "Extreme Biking",
+            "email": "extremebiking@gmail.com"
+          }
+        },
+        {
+          "id": "11",
+          "name": "Pet Supplies",
+          "description": "Everything your furry friend needs",
+          "quantity": 150,
+          "images": [
+            "https://images.unsplash.com/photo-1584983568736-0f0eb3d93479",
+            "https://images.unsplash.com/photo-1581092733449-fd767efb7f0c",
+            "https://images.unsplash.com/photo-1605319250384-9544e2d330c5"
+          ],
+          "price": "20€",
+          "rating": 4,
+          "seller": {
+            "name": "Pet Paradise",
+            "email": "sales@petparadise.com"
+          }
+        },
+        {
+          "id": "13",
+          "name": "Smartwatch",
+          "description": "A high-quality smartwatch with advanced health tracking features.",
+          "quantity": 50,
+          "images": [
+            "https://m.media-amazon.com/images/I/71BcxBLEyeL._AC_SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/71yJQDKy-1L._AC_SL1500_.jpg"
+          ],
+          "price": "299€",
+          "rating": 4.5,
+          "seller": {
+            "name": "TechCo",
+            "email": "sales@techco.com"
+          }
+        }
+  ]
+}
