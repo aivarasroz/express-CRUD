@@ -7,7 +7,7 @@ export type ProductViewModel = {
     name: string,
     email: string,
   },
-  price: number,
+  price: string,
   quantity: number,
   images: string[],
   rating?: number

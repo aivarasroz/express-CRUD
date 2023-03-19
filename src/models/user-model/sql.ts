@@ -4,7 +4,6 @@ select
   u.email,
   u.name,
   u.password,
-  i.src as image
 from user as u
 `;
 

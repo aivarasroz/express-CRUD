@@ -1,9 +1,10 @@
+/* eslint-disable import/extensions */
 import ServerSetupError from 'errors/server-setup-error';
 import { RequestHandler } from 'express';
 import handleRequestError from 'helpers/handle-request-error';
-import ProductModel from './product-model';
+import ProductModel from '../products-model';
 import { ProductDataBody, ProductViewModel } from '../types';
-import productDataValidationSchema from './validation-schemas/product-data-validation-schema';
+import productDataValidationSchema from '../validation-schemas/product-data-validation-schema';
 
 const createProduct: RequestHandler<
   {},

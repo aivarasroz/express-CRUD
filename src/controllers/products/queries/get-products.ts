@@ -9,6 +9,7 @@ const getProducts: RequestHandler<
   {}
 > = async (req, res) => {
   const productViewModelArray = await ProductModel.getProducts();
+  console.log(productViewModelArray);
   res.json(productViewModelArray);
 };
 

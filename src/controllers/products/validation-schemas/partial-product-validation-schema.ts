@@ -9,12 +9,12 @@ const partialProductDataValidationSchema: yup.ObjectSchema<PartialProductData> =
   description: yup.string()
     .max(200, 'description can\'t have more than 200 letters'),
 
-  price: yup.number()
-    .positive('price must be positive')
+  price: yup.string()
+    .min(1, 'price must be minimum 1')
     .test(
       'priceFormat',
       'price can\'t have more than 2 decimal points',
-      (value) => value === undefined || Number(value.toFixed(2)) === value,
+      (value) => value === undefined,
     ),
 
   quantity: yup.number()
